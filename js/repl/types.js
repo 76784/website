@@ -23,6 +23,7 @@ export type EnvConfig = {
   isSpecEnabled: boolean,
   isLooseEnabled: boolean,
   builtIns: string | false,
+  corejs: "2" | "3",
   forceAllTransforms: boolean,
   shippedProposals: boolean,
   version?: any,
