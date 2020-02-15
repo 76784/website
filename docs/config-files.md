@@ -175,7 +175,7 @@ the working directory upward looking for your [`babel.config.json`](#project-wid
 and will use its location as the ["root"](options.md#root) value.
 
 One helpful way to test if your config is being detected is to place a `console.log()` call
-inside of it if it is a [`babel.config.json`](#project-wide-configuration) JavaScript file: the log will execute 
+inside of it if it is a [`babel.config.js`](#project-wide-configuration) JavaScript file: the log will execute 
 the first time Babel loads it.
 
 How you set this value varies by project, but here are a few examples:
